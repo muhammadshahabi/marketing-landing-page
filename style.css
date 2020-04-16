@@ -1,0 +1,359 @@
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/header-background.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .header-top .navbar-brand img {
+  width: 182px;
+  height: 68px;
+}
+
+#header .header-top nav .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+#header .header-top nav .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#header .header-top .navbar-collapse {
+  margin-top: 16px;
+}
+
+#header .header-bottom h1 span {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+#header .header-bottom h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #42495b;
+}
+
+#header .header-bottom {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+#header .header-bottom p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #7a839e;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+.gradient-button {
+  background: linear-gradient(
+    90deg,
+    rgba(26, 18, 159, 1) 0%,
+    rgba(97, 86, 249, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 25px;
+  padding-right: 24px;
+  padding-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Bio section */
+
+#bio {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#bio .bio-info h3 {
+  font-family: 'Lobster', cursive;
+  color: #7e76f9;
+}
+
+#bio .bio-info h2 {
+  font-family: Poppins;
+  color: #42495b;
+  font-size: 48px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+#bio .bio-info p {
+  font-family: 'Poppins', sans-serif;
+  color: #7a839e;
+}
+
+section#bio .bio-info {
+  margin-top: 32px;
+}
+
+/* Services Section */
+
+#services .title {
+  color: #7e76f9;
+  font-family: 'Lato', sans-serif;
+}
+
+#services p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #42495b;
+}
+
+section#services {
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+#services .service {
+  text-align: center;
+  box-shadow: 0px 4px 24px rgba(126, 118, 249, 0.1);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 25px;
+  padding: 32px 8px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#services .service h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #42495b;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+#services .service p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Prices Section */
+
+section#prices {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: rgba(126, 118, 249, 0.15);
+  text-align: center;
+}
+
+section#prices h3 {
+  font-family: 'Lobster', cursive;
+  color: #7e76f9;
+}
+
+#prices h2 {
+  font-size: 48px;
+  color: #42495b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+#prices .package {
+  background-color: #ffffff;
+  padding: 48px 8px;
+  border-radius: 25px;
+  margin-top: 24px;
+}
+
+section#prices .package h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#prices .package .lead {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #7a839e;
+}
+
+#prices .package span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1000ff;
+  display: block;
+  margin-bottom: 32px;
+}
+
+/* Newsletter Section */
+
+section#newsletter {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+#newsletter h3 {
+  font-family: 'Lobster', cursive;
+  color: #7e76f9;
+}
+
+section#newsletter p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+#newsletter p span {
+  font-weight: bold;
+}
+
+#newsletter form.form-inline {
+  width: 80%;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#newsletter .form-inline input#staticEmail2.form-control-plaintext {
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+  font-size: 12px;
+  width: 420px;
+  border-radius: 8px;
+  background-color: #ececec;
+  padding: 8px 16px;
+  margin-right: 32px;
+}
+
+/* Footer */
+
+footer#footer {
+  background: linear-gradient(
+    90deg,
+    rgba(26, 18, 159, 1) 0%,
+    rgba(97, 86, 249, 1) 100%
+  );
+  padding-top: 64px;
+  padding-bottom: 64px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+#footer .hours .list-inline li {
+  width: 90%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer h2 {
+  padding-bottom: 0px;
+  margin-bottom: 16px;
+}
+
+#footer .contact .contact-info {
+  justify-content: flex-start;
+}
+
+#footer .contact .contact-info i {
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+/* media query */
+
+@media (max-width: 767px) {
+  #header {
+    background-image: url('none');
+    height: 75vh;
+  }
+
+  #header .header-bottom {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 575px) {
+  #header .header-bottom h1 {
+    font-size: 36px;
+  }
+
+  #header .header-bottom h1 span {
+    font-size: 24px;
+  }
+
+  #header .header-top .navbar-brand img {
+    width: 120px;
+    height: 46px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #services .service {
+    height: 550px;
+  }
+}
+
+@media (max-width: 575px) {
+  #bio .bio-info h2 {
+    font-size: 36px;
+  }
+
+  #services p {
+    font-size: 36px;
+  }
+
+  section#newsletter p {
+    font-size: 18px;
+  }
+
+  #services .service {
+    height: 500px;
+  }
+}
+
+.gradient-button:hover {
+  background: #ffffff;
+  border-color: #555ce0;
+  color: #565ee3;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #newsletter .form-inline .form-group #staticEmail2.form-control-plaintext {
+    margin: 0 auto 16px;
+  }
+}
+
+#header .header-top nav .navbar-nav .nav-link:hover {
+  color: #b7cdfe;
+}
